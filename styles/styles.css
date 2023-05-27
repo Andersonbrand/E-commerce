@@ -108,6 +108,57 @@ img {
     padding-left: 15px;
 }
 
-#input-header{
-        text-align: center!important;
+#img-header-logo-delirius {
+    width: 200px;
+    height: 200px;
+}
+
+#input-header {
+    position: relative;
+    width: 33%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center !important;
+}
+
+#center-aline-input {
+    padding-left: 20%;
+    display: block;
+    margin-top: 0em;
+}
+
+#row-input-initial {
+    position: relative;
+    width: 100%;
+    margin: 0 !important;
+}
+
+#box-pesquisa-header {
+    font-size: 20px;
+    padding-right: 30px;
+    color: #7f6c59;
+    border: 1px solid #7f6c59;
+    border-radius: 10px;
+    display: block;
+    padding: 12px;
+    width: 100%;
+    -moz-appearance: none;
+    appearance: none;
+    fill: #7f6c59;
+    background-color: #ecf0f1;
+    -ms-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+#icon-iput-placeholder {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 140px;
+    bottom: 40px;
 }
