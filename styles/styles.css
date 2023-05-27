@@ -5,7 +5,109 @@
     font-family: 'Cormorant Garamond', serif;
 }
 
-img{
+img {
     width: 100px;
     height: 100px
+}
+
+#opening-paragraph {
+    background-color: #7f6c59;
+    color: #ecf0f1;
+    fill: #ecf0f1;
+}
+
+#center-opening {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#row-opening {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+}
+
+#insta-opening {
+    position: relative;
+    width: 33%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#title-opening {
+    position: relative;
+    width: 33%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#border-box-opening {
+    position: relative;
+    width: 33%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#aline-img {
+    position: relative;
+    width: 33%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#text-opening {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#aline-center-insta-pink {
+    margin: 0px;
+}
+
+#inst-white {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 5px 0px 0px 0px;
+}
+
+#header-content {
+    padding-bottom: 0 !important;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#header-itens-alignment-part-one {
+    align-items: center !important;
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#logo-img-header {
+    text-align: center !important;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#input-header{
+        text-align: center!important;
 }
