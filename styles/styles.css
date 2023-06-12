@@ -80,6 +80,7 @@ img {
     border-radius: 10px;
     margin: 5px 0px 0px 0px;
     cursor: pointer;
+    mix-blend-mode: multiply;
 }
 
 #header-content {
@@ -225,7 +226,7 @@ img {
 }
 
 .image-transition-section-one {
-    width: 445px;
+    width: 443px;
     height: 500px;
     margin-left: 2px;
 }
@@ -434,6 +435,7 @@ img {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
+    margin-bottom: 35px;
 }
 
 .h1 {
@@ -490,7 +492,7 @@ img {
 .img-absolute-centered {
     left: 50%;
     transform: translateX(-50%) !important;
-    -webkit-transform: translateX(-50%) !important;
+    -webkit-transform: translateX(0%) !important;
     -ms-transform: translateX(-50%) !important;
 }
 
@@ -511,6 +513,113 @@ img {
 .position-relative {
     position: relative !important;
 }
+
+.py-4 {
+    padding-bottom: 1.5rem !important;
+    padding-top: 1.5rem !important;
+}
+
+.px-1 {
+    padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
+}
+
+.section-featured-home {
+    position: relative;
+    margin-bottom: 70px
+}
+
+.alignment-items-section-five {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row-3 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+.col-14 {
+    text-align: center !important;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#title-section-five {
+    font-family: "Lora", serif;
+    display: block;
+    font-size: 1.17em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.js-swiper-new {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.p-md-2{
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.swiper-container-initialized {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    transition: all 0ms ease 0s;
+}
+
+
+
+
+
 
 
 
@@ -551,20 +660,17 @@ img {
 
 @media (min-width: 768px) {
 
-    .h1,
     .h1-md {
         font-size: 34px;
         font-weight: 700;
         margin-bottom: 30px;
     }
 
-    h1,
     .h1 {
         font-size: 34px;
         font-weight: 700;
     }
 
-    h3,
     .h3 {
         font-size: 20px;
         font-weight: 700;
@@ -584,5 +690,67 @@ img {
         -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
+    }
+}
+
+@media (min-width: 768px) {
+    .item-product:hover .item-description {
+        border-bottom: 1px solid transparent;
+    }
+
+    .item-description {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        -webkit-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+    }
+}
+
+@media (min-width: 1200px) {
+    .alignment-items-section-five {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px) {
+    .alignment-items-section-five {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .alignment-items-section-five {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .alignment-items-section-five {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .h1-md {
+        font-size: 34px;
+        font-weight: 700;
+    }
+
+    .h1 {
+        font-size: 34px;
+        font-weight: 700;
+    }
+
+    .h3 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 768px) {
+    .p-md-1 {
+        padding: 0.25rem !important;
     }
 }
