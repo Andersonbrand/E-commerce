@@ -662,7 +662,7 @@ img {
     height: 50px;
     position: absolute;
     bottom: 300px;
-    left: 1044px;
+    left: 1046px;
 }
 
 .div-arrow-right-two {
@@ -670,7 +670,7 @@ img {
     height: 50px;
     position: absolute;
     bottom: 300px;
-    left: -4px;
+    right: 1046px;
 }
 
 .item {
