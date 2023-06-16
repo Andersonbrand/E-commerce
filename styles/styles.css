@@ -156,6 +156,10 @@ img {
     transition: all 0.4s ease;
 }
 
+.menu-header {
+    cursor: pointer;
+}
+
 #icon-iput-placeholder {
     width: 20px;
     height: 20px;
@@ -163,6 +167,7 @@ img {
     left: 220px;
     bottom: 35px;
     cursor: pointer;
+    opacity: 0.5;
 }
 
 #header-options {
@@ -253,6 +258,7 @@ img {
     border-radius: 40px;
     cursor: pointer;
     mix-blend-mode: multiply;
+    opacity: 0.5;
 }
 
 .arrow-right-img {
@@ -261,6 +267,7 @@ img {
     border-radius: 40px;
     cursor: pointer;
     mix-blend-mode: multiply;
+    opacity: 0.5;
 }
 
 .section-two-for-payment {
@@ -663,6 +670,8 @@ img {
     position: absolute;
     bottom: 300px;
     left: 1046px;
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 .div-arrow-right-two {
@@ -671,6 +680,8 @@ img {
     position: absolute;
     bottom: 300px;
     right: 1046px;
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 .item {
@@ -796,13 +807,73 @@ img {
     text-align: center !important;
 }
 
-.mb-4 {
-    text-transform: uppercase !important;
+#mb-3-1{
     margin-bottom: 1.5rem !important;
+}
+
+#mb-4-2 {
+    margin-bottom: 1.5rem !important;
+    font-size: 35px;
+}
+
+#mb-5-3 {
+    margin-bottom: 1.5rem !important;
+    font-size: 18px;
 }
 
 .text-uppercase {
     text-transform: uppercase !important;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.form-control {
+    position: relative;
+    margin-top: 3rem !important;
+    border: 0;
+    color: #9f5050;
+    padding: 17px 15px;
+    display: block;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #000;
+    fill: #000;
+    background-color: #ecf0f1;
+    -webkit-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    border-radius: 10px;
+}
+
+.icon-input-2{
+    width: 25px;
+    height: 25px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    bottom: 11px;
+    left: 600px;
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.instafeed-title {
+    display: block;
+    line-height: 42px;
+    color: #000;
+    margin-bottom: 20px;
+    fill: #000;
+    margin-bottom: 0!important;
 }
 
 
@@ -983,9 +1054,9 @@ img {
 
 @media (min-width: 768px) {
     .col-md-8 {
-        -ms-flex: 0 0 66.666667%;
-        flex: 0 0 66.666667%;
-        max-width: 66.666667%;
+        -ms-flex: 0 0 49.666667%;
+        flex: 0 0 49.666667%;
+        max-width: 49.666667%;
         position: relative;
         width: 100%;
         min-height: 1px;
@@ -998,5 +1069,11 @@ img {
     .h1-md {
         font-size: 34px;
         font-weight: 700;
+    }
+}
+
+@media (min-width: 768px) {
+    .form-quantity {
+        font-size: 14px;
     }
 }
