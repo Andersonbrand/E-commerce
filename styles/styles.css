@@ -5,13 +5,6 @@
     font-family: 'Cormorant Garamond', serif;
 }
 
-img {
-    width: 100px;
-    height: 100px;
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
-
 .border-box-icons-svg {
     padding: 5px;
     margin: 5px 5px;
@@ -93,7 +86,7 @@ img {
     border-radius: 10px;
     margin: 5px 0px 0px 0px;
     cursor: pointer;
-    background-color: rgb(241, 51, 178);
+    background-color: pink;
 }
 
 #header-content {
@@ -169,6 +162,11 @@ img {
     -moz-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
+    outline: none;
+}
+
+#box-pesquisa-header::placeholder {
+    color: #7f6c59
 }
 
 .menu-header {
@@ -252,16 +250,19 @@ img {
 }
 
 .image-transition-section-one {
-    width: 443px;
+    width: 445px;
     height: 500px;
     margin-left: 2px;
+    border-style: solid;
+    border-color: #7f6c59;
+    border-width: 0.9px;
 }
 
 .div-arrow-left {
     width: 50px;
     height: 50px;
     position: absolute;
-    bottom: 50px;
+    bottom: 60px;
     left: 1278px;
 }
 
@@ -269,7 +270,7 @@ img {
     width: 50px;
     height: 50px;
     position: absolute;
-    bottom: 50px;
+    bottom: 60px;
     left: 21px;
 }
 
@@ -818,7 +819,6 @@ img {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-
 }
 
 .text-center {
@@ -871,6 +871,11 @@ img {
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
     border-radius: 10px;
+    outline: none;
+}
+
+.form-control::placeholder {
+    color: #7f6c59;
 }
 
 .icon-input-2 {
@@ -1137,7 +1142,7 @@ img {
 .footer-legal {
     padding: 20px 0;
     font-size: 12px;
-    background: #9f5050;
+    background: #7f6c59;
     color: #ecf0f1;
 }
 
@@ -1160,14 +1165,8 @@ img {
     align-items: center;
 }
 
-#licensa{
+#licensa {
     font-size: 20px;
-}
-
-.d-inline-block {
-    display: inline-block !important;
-    position: relative;
-    top: 25px;
 }
 
 .text-md-right {
@@ -1179,21 +1178,21 @@ img {
     text-align: right !important;
 }
 
-#logo-whats-flutuante {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    position: relative;
-    left: 45px;
-    top: 40px;
-}
-
 #autoral {
     font-size: 15px;
     color: white;
     text-decoration: none;
 }
 
+.div-row-elements-footer-two {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: space-evenly;
+}
 
 
 
