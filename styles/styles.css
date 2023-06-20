@@ -1039,7 +1039,7 @@
 }
 
 .titles-footer {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     margin-bottom: 25px;
 }
@@ -1123,19 +1123,19 @@
 }
 
 .metodos-de-pagamentos {
-    width: 290px;
-    height: 50px;
+    width: 270px;
+    height: 40px;
     mix-blend-mode: multiply;
 }
 
 .metodos-de-envio-one {
-    width: 200px;
-    height: 50px;
+    width: 170px;
+    height: 40px;
     mix-blend-mode: multiply;
 }
 
 .metodos-de-envio-two {
-    width: 125px;
+    width: 100px;
     height: 50px;
 }
 
@@ -1166,7 +1166,7 @@
 }
 
 #licensa {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .text-md-right {
